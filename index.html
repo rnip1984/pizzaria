@@ -3,69 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>Best Pizza Ever</title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-  <h1 id="intro">
+  <header id="intro">
    <div class="content">
-     <h1 id="name">Pizzaria La DevLeague</h1>
+     <h1 id="name">Pizzaria La DevLeague
+     </h1>
      <h2 id="tagline">Functional Pizza For All!</h2>
-     <img src="assets/pizzaMan.jpeg" alt="logo">
       <nav id="topMenu">
+      <ul>
         <li class="guide"><a href="#today">Today's Special</a></li>
         <li class="guide"><a href="#menu">Menu</a></li>
         <li class="guide"><a href="#subscribe">Subscribe</a></li>
         <li class="guide"><a href="#visit">Visit</a></li>
+      </ul>
       </nav>
+      <img src="assets/pizzaMan.jpeg" alt="logo">
    </div>
-  </h1>
+  </header>
   <section id="today">
     <div class="content">
-      <h3 class="sectionTitle">Today's Special</h3>
-      <p id="special">Conditional Love</p>
+      <a id="special">Today's Special</a>
+      <p class="description"><a href="#conditionalLove">Conditional Love</a></p>
     </div>
   </section>
   <section id="menu">
     <div class="content">
       <h3 class="sectionTitle">Menu</h3>
+      
       <div class="pizza">
         <p class="pizzaName">Object of My Desire</p>
+        <img src="assets/bbqmeatpizza.jpeg" alt="pizza">
         <p class="description">A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
         <p class="price">19.99</p>
       </div>
       <div class="pizza">
         <p class="pizzaName">Four Loop</p>
+        <img src="assets/fourcheesepizza.jpeg" alt="pizza">
         <p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!</p>
         <p class="price">44.44</p>
       </div>
       <div class="pizza">
-        <p class="pizzaName">Conditional Love</p>
+        <p class="pizzaName"><a name="conditionalLove">Conditional Love</a></p>
+        <img src="assets/koreanpizza.jpeg" alt="pizza">
         <p class="description">This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
         <p class="price">22.14</p>
       </div>
       <div class="pizza">
         <p class="pizzaName">The DOM</p>
+        <img src="assets/duckmangopizza.jpeg" alt="pizza">
         <p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
         <p class="price">16.99</p>
       </div>
       <div class="pizza">
         <p class="pizzaName">Conjunction Function</p>
+        <img src="assets/createyourownpizza.jpg" alt="pizza">
         <p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
         <p class="price">17.02</p>
        </div> 
-    </div>
-  </section>
+    </div> <!-- content -->
+  </section> <!-- menu -->
   <section id="subscribe">
     <div class="content">
      <h3 class="sectionTitle">Subscribe</h3>
      <p id="deal">Sign up for our special deals!</p>
      <input type="text" placeholder="First Name"><br>
      <input type="text" placeholder="Last Name"><br>
-     <input type="text"
-     placeholder="Email">
+     <input type="text" placeholder="Email">
     </div>
   </section>
   <section id="visit">
-    <div class="content"
+    <div class="content">
      <h3 class="sectionTitle">Visit</h3>
      <ul id="addy">
        <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>

@@ -1,0 +1,87 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  
+  background-image: url("../assets/checkerboardcloth.jpg");
+  background-color: #595959;
+  cursor: url('../assets/pizzaSlice.jpeg'), auto;
+}
+#name{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+#tagline{
+  text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+#topMenu{
+  text-align: center;
+}
+.guide{
+    font-size: 20px;
+  color: black;
+  font-family: 'comfortaa', cursive;
+  font-weight:bolder;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  border: 5px solid;
+  border-radius: 10px;
+}
+/* unvisited link, visited link */
+a:link, a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: white;
+}
+
+/* mouse over link, selected link  */
+a:hover, a:active {
+    text-decoration: underline;
+    background-color: white;
+}
+#today{
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+#special{
+  text-decoration: underline;
+}
+
+.sectionTitle{
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+  position: relative;
+  left: 10px;
+  text-align: left;
+  margin-right: 500px;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: white;
+}
+.pizza{
+  display: inline-block;
+  text-align: center;
+  width: 550px;
+  height: 220px;
+  margin: 10px;
+  border: 3px solid green;
+  background-color: white;
+  position: relative;
+}
+.pizzaName{
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
